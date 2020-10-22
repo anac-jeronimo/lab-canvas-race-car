@@ -111,12 +111,6 @@ updateCanvas();
 
 document.addEventListener('keydown', e => {
     switch (e.keyCode) {
-       case 38: 
-        player.speedY -= 1;
-        break;
-        case 40:
-        player.speedY += 1;
-        break;
         case 37:
         player.speedX -= 1;
         break;
